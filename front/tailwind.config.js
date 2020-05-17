@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   variants: {
+    borderStyle: ['responsive', 'hover', 'focus', 'focus-within'],
     backgroundColor: ['responsive', 'hover', 'focus', 'focus-within'],
     maxWidth: ['responsive'],
   },

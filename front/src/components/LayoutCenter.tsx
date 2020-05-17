@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 
 interface Props {
   children: React.ReactNode;
@@ -8,10 +9,13 @@ interface Props {
 function LayoutCenter({ children, hasHeader }: Props) {
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen p-4"
+      className="flex flex-col h-screen"
       style={hasHeader ? { paddingTop: '3.5em' } : undefined}
     >
-      {children}
+      <div className="flex flex-col flex-grow items-center justify-center p-4">
+        {children}
+      </div>
+      <Footer />
     </div>
   );
 }

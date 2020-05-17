@@ -78,6 +78,7 @@ function Task({
       {editing ? (
         <>
           <input
+            placeholder="Task Name"
             ref={inputRef}
             onKeyPress={(e) => e.key === 'Enter' && inputRef.current?.blur()}
             onBlur={() => {
