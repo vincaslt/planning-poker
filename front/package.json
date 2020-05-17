@@ -5,7 +5,7 @@
   "main": "src/index.tsx",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "build": "parcel build public/index.html && cp public/robots.txt dist/robots.txt"
   },
   "author": "Vincas Stonys",
   "license": "ISC",
