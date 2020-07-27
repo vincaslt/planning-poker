@@ -4,8 +4,14 @@
   "description": "",
   "main": "dist/index.html",
   "scripts": {
-    "start": "parcel public/index.html",
+    "start": "parcel serve public/index.html",
     "build": "parcel build public/index.html && cp public/robots.txt dist/robots.txt"
+  },
+  "targets": {
+    "main": {
+      "context": "browser",
+      "includeNodeModules": true
+    }
   },
   "author": "Vincas Stonys",
   "license": "ISC",
@@ -17,6 +23,7 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.20",
     "react-router-dom": "^5.1.2",
+    "regenerator-runtime": "^0.13.7",
     "socket.io-client": "^2.3.0",
     "styled-components": "^5.1.0",
     "tailwindcss": "^1.5.2",
