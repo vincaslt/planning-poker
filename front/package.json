@@ -2,7 +2,7 @@
   "name": "planningpoker-front",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.tsx",
+  "main": "public/index.html",
   "scripts": {
     "start": "parcel public/index.html",
     "build": "parcel build public/index.html && cp public/robots.txt dist/robots.txt"
