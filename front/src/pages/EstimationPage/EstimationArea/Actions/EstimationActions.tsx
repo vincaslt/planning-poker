@@ -22,9 +22,7 @@ function EstimationActions({ onSelect, selected }: Props) {
 
   return (
     <ActionArea>
-      <div
-        className={`grid-cols-${ESTIMATION_VALUES.length} grid grid-flow-row gap-2`}
-      >
+      <div className="grid-cols-7 grid grid-flow-row gap-2">
         {ESTIMATION_VALUES.map((value) => (
           <EstimationButton
             key={value || '?'}

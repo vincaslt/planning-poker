@@ -2,7 +2,7 @@ import React from 'react';
 import Icon from './Icon';
 import Title from './Title';
 import classNames from '../utils/classNames';
-import logoSvg from '../../public/logo.svg';
+import Logo from './Logo';
 
 interface Props {
   title?: string;
@@ -19,11 +19,7 @@ function Header({ title, spectators, basic = false }: Props) {
       )}
     >
       <span className="flex items-center">
-        <img
-          src={logoSvg}
-          alt="logo"
-          className={classNames(!title ? 'w-12' : 'w-8 mr-4')}
-        />
+        <Logo className={classNames(!title ? 'w-12' : 'w-8 mr-4')} />
         {title && <Title>{title}</Title>}
       </span>
       {spectators && spectators.length > 0 && (

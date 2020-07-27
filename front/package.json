@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "autoprefixer": "^9.7.6",
-    "parcel-bundler": "^1.12.4",
+    "parcel": "^2.0.0-beta.1",
     "postcss-modules": "^1.5.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -19,7 +19,7 @@
     "react-router-dom": "^5.1.2",
     "socket.io-client": "^2.3.0",
     "styled-components": "^5.1.0",
-    "tailwindcss": "^1.2.0",
+    "tailwindcss": "^1.5.2",
     "unstated-next": "^1.1.0"
   },
   "devDependencies": {
@@ -41,6 +41,6 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "prettier": "^2.0.4",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.7"
   }
 }
